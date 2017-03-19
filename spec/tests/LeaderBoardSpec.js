@@ -26,7 +26,7 @@ describe("Nodejs Small Leaderboard Spec", function () {
         });
     });
 
-    xit("testcase2 leaderboard small test", function (done) {
+    it("testcase2 leaderboard small test", function (done) {
         var folderPath = path.resolve(__dirname, '..', '..', 'src', 'data', 'testcase2');
         LeaderBoard.generateLeaderBoardSmall(folderPath, function () {
 
